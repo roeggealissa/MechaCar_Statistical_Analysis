@@ -16,4 +16,5 @@ suspension_coil = read.csv("Suspension_Coil.csv",check.names=F,stringsAsFactors 
 
 total_summary <- suspension_coil %>% summarise(Mean_PSI = mean(PSI), Median_PSI = median(PSI),Variance_PSI = var(PSI), STD_PSI = sd(PSI) )
 
+lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarise(Mean_PSI = mean(PSI), Median_PSI = median(PSI),Variance_PSI = var(PSI), STD_PSI = sd(PSI) )
 ### Challenge Part 3
