@@ -24,3 +24,10 @@ Assuming a signifigance level of 0.05, Lot 3 is the only lot where we can reject
 
 ## Study Design: MechaCar vs Competition
 
+The cost of a car will always be the most important price point to a consumer. A typical consumer will want a more affordable car, but not if it doesn't have the features they require. For this study, we will be looking at the cost of the car, the dependant variable in this situation, and how it's affected by major metrics of interest in a car. These metrics will include city and highway miles per gallon, average resale cost after 5 years, ground clearance, engine type, safety feature ratings, and if possible the estimated yearly cost of upkeep. These are all the independent values that we will need sufficently large obserations of.
+
+The null hypothesis is that the cost of the MechaCar is correct based on the primary metrics a consumer will use. The alternative hypothesis is that the car is priced incorrectly based on the primary metrics a consumer will use. 
+
+A linear regression model would be used to show exactly how each metric contributes to the price of the car. We may see that only one metric greatly affects the price, but we might also see that it is a combination of these metrics that leads to the predicted value of a car. This may also lead to understanding that a different metric we did not consider is actually the greatest factor in the expected price of a car based on it's features.
+
+For this to be successful we would need a sufficently large and long term dataset of cars from MechaCar and similar cars from competitor brands.
