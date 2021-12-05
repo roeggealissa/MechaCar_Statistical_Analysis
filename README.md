@@ -15,4 +15,12 @@ For all lots in total the variance in PSI is 62.3 pounds per square inch, which 
 
 ## T-Tests on Suspension Coils
 
+![total t-test](https://github.com/roeggealissa/MechaCar_Statistical_Analysis/blob/16013827c744a6717e3eccdaeb9706a8d602c1e9/Total_Part3.png)
+![Lot 1](https://github.com/roeggealissa/MechaCar_Statistical_Analysis/blob/16013827c744a6717e3eccdaeb9706a8d602c1e9/Lot1_Part3.png)
+![Lot 2](https://github.com/roeggealissa/MechaCar_Statistical_Analysis/blob/16013827c744a6717e3eccdaeb9706a8d602c1e9/Lot2_Part3.png)
+![Lot 3](https://github.com/roeggealissa/MechaCar_Statistical_Analysis/blob/16013827c744a6717e3eccdaeb9706a8d602c1e9/Lot3_Part3.png)
+
+Assuming a signifigance level of 0.05, Lot 3 is the only lot where we can reject the null hypothesis that the two means are the same, as the p-value is 0.04. This means we can state the mean of Lot 3 is different than the population mean. For the full population and Lots 1 and 2 we can not reject the null hypothesis and thus must state the two means are the same.
+
+## Study Design: MechaCar vs Competition
 
