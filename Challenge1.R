@@ -18,3 +18,15 @@ total_summary <- suspension_coil %>% summarise(Mean_PSI = mean(PSI), Median_PSI 
 
 lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarise(Mean_PSI = mean(PSI), Median_PSI = median(PSI),Variance_PSI = var(PSI), STD_PSI = sd(PSI) )
 ### Challenge Part 3
+
+# t test whole population
+
+t.test(suspension_coil$PSI, mu = 1500)
+
+Lot1 = subset(suspension_coil, Manufacturing_Lot == "Lot1")
+Lot2 = subset(suspension_coil, Manufacturing_Lot == "Lot2")
+Lot3 = subset(suspension_coil, Manufacturing_Lot == "Lot3")
+
+t.test(Lot1$PSI, mu = 1500)
+t.test(Lot2$PSI, mu = 1500)
+t.test(Lot3$PSI, mu = 1500)
