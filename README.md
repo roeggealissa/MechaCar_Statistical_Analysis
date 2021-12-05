@@ -14,3 +14,5 @@ As shown in the results above, the vehicle length and it's ground clearance are 
 For all lots in total the variance in PSI is 62.3 pounds per square inch, which is lower than the 100 pound per square inch threashold allowed by the manufacturer. However when we look at the lots seperately, we can see that Lot 3 exceeds the threashold at 170 pounds per square inch. Both lot and two fall within tolerance with low variances.
 
 ## T-Tests on Suspension Coils
+
+
